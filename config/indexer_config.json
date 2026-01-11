@@ -1,0 +1,59 @@
+{
+  "blacklisted_extensions": [
+    ".o",
+    ".a",
+    ".so",
+    ".lib",
+    ".dll",
+    ".exe",
+    ".zip",
+    ".gz",
+    ".tar",
+    ".rar",
+    ".7z",
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".gif",
+    ".bmp",
+    ".tiff",
+    ".ico",
+    ".mp3",
+    ".mp4",
+    ".avi",
+    ".mov",
+    ".wmv",
+    ".pdf",
+    ".git",
+    ".jar"
+  ],
+  "ignored_dirs": [
+    ".git",
+    "node_modules",
+    "__pycache__",
+    "venv",
+    ".svn",
+    ".hg",
+    "CVS",
+    ".DS_Store",
+    "dist",
+    "build",
+    "target",
+    ".idea",
+    ".vscode",
+    ".vs"
+  ],
+  "confluence_config": {
+    "base_url": "",
+    "username": "",
+    "api_token": "",
+    "start_urls": [
+      
+    ],
+    "start_page_ids": []
+  },
+  "db_path": "./data/vector_store",
+  "collection_name": "keystone_collection",
+  "source_type": "git",
+  "git_url": "https://github.com/abhyudyag/MachineCoding.git"
+}

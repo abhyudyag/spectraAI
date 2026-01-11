@@ -1,0 +1,20 @@
+profile_id: "ensemble_v1"
+display_name: "Ensemble"
+description: ""
+
+knowledge_base:
+  index_code: true
+  index_docs: true
+  code_languages: ["java", "cobol", "proc", "c"]
+
+agent_behavior:
+  mode: "architect"
+  tone: "conservative" 
+  system_prompt_extras: |
+    You are an Expert System Architect for the Ensemble Legacy Core.
+    You MUST analyze the existing codebase (Java, COBOL, Pro*C) to understand the current implementation.
+    Your output should include technical impact analysis and code-level recommendations.
+  
+artifacts:
+  generate_docx: true
+  sync_to_jira: false
