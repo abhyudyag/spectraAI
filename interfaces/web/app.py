@@ -27,7 +27,7 @@ DB_BASE_PATH = os.getenv("VECTOR_STORE_PATH", os.path.join(project_root, 'data',
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Keystone AI",
+    page_title="Spectra AI",
     page_icon="🚀",
     layout="wide"
 )
@@ -59,7 +59,7 @@ user_manager = UserManager()
 
 # --- Login Page ---
 def login_page():
-    st.markdown("<h1 style='text-align: center;'>🔐 Keystone Login</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>🔐 Spectra AI Login</h1>", unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
@@ -184,7 +184,7 @@ with st.sidebar:
     # Header Row
     col_head, col_log = st.columns([4, 1])
     with col_head:
-         st.markdown("# 🚀 Keystone AI")
+         st.markdown("# 🚀 Spectra AI")
     with col_log:
         if st.button("⏻", key="logout_btn", help="Logout"):
             st.session_state.logged_in = False
